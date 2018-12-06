@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header样式*/
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #223047;
+    border-bottom: 1px solid #4e596c; 
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+}
+
+.logo h1{
+    font-size: 25px;
+    color: #00fff1;
+    line-height: 70px;
+    text-align: center;
+    font-family: 
+}
+
+.logo span{
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.nav{
+    float: right;
+}
+
+.nav ul{
+    list-style-type: none;
+    padding-right: 200px;
+}
+
+.nav li{
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    width: 100px;
+}
+
+.nav li:hover{
+    background-color: #00fff1;    
+}
+
+.nav a{
+    display: block;
+    font-size: 12px;
+}
+
+.nav a:hover{
+    color: #000 !important;
+}
+
+.nav a:visited{
+    color: #eee;
+}
+
+.nav a:link,.nav a:active{
+    text-decoration: none;
+}
+
+/*display样式*/
+.display{
+    width: 100%;
+    height: 630px;
+    background-color: #223047
+}
+
+.display-left{
+    float: left;
+}
+
+.display-left h2{
+    font-family: "FangSong";
+}
